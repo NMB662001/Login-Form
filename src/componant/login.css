@@ -75,6 +75,10 @@
     border: 1px solid white;
 }
 
+btn:hover {
+    opacity: 1;
+}
+
 .icons {
     font-size: 1.6rem;
     display: flex;
