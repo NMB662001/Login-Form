@@ -37,7 +37,7 @@ const Login = () => {
                         <FaTwitter />
                         <FaGoogle />
                     </div>
-                    <p className='line3'>Don't have an account? <a href='#/'>Sign Up</a> </p>
+                    <p className='line3'>Don't have an account? <a href='/signup'>Sign Up</a> </p>
 
                 </form>
             </div>
