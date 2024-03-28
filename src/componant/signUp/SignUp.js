@@ -13,8 +13,6 @@ const SignUp = () => {
 
 
     const onSignUpClick = async () => {
-        console.log({ name, phone, email, password });
-
         try {
             const response = await axios.post('http://localhost:6767/create-user', { name, phone, email, password })
             if (response) {
@@ -70,7 +68,7 @@ const SignUp = () => {
                     <FaTwitter />
                     <FaGoogle />
                 </div>
-                <p className='line3'>Already have an account? <a href='#/'>Log In</a></p>
+                <p className='line3'>Already have an account? <a href='/'>Log In</a></p>
 
             </div>
         </div>
