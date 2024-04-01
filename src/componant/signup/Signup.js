@@ -30,34 +30,34 @@ const Signup = () => {
         }
     }
     return (
-        <div>
-            <div className='body'>
+        <div className='outter'>
+            <div className='innertext'>
 
-                <h2 className='title'>LOGIN </h2>
-                <p className='line1'>Please Enter Your Login And Password !</p>
+                <h2 className='title'>SIGN UP </h2>
+                <p className='l1'>Please Enter Your Login And Password !</p>
 
-                <div className='up'>
-                    <label className='name'>UserName: </label>
-                    <input className='input' onChange={(e) => { setname(e.target.value) }} placeholder='Enter Your UserName' required />
+                <div className='up1'>
+                    <label className='nm'>UserName: </label>
+                    <input className='ip' onChange={(e) => { setname(e.target.value) }} placeholder='Enter Your UserName' required />
                 </div>
-                <div className='up'>
-                    <label className='name'>phone: </label>
-                    <input className='input' onChange={(e) => { setphone(e.target.value) }} placeholder='Enter Your phone' required />
+                <div className='up1'>
+                    <label className='nm'>phone:  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </label>
+                    <input className='ip' onChange={(e) => { setphone(e.target.value) }} placeholder='Enter Your phone' required />
                 </div>
-                <div className='up'>
-                    <label className='name'>email: </label>
-                    <input className='input' onChange={(e) => { setemail(e.target.value) }} placeholder='Enter Your email' required />
+                <div className='up1'>
+                    <label className='nm'>email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input className='ip' onChange={(e) => { setemail(e.target.value) }} placeholder='Enter Your email' required />
                 </div>
-                <div className='up'>
-                    <label className='name'>age: </label>
-                    <input className='input' onChange={(e) => { setage(e.target.value) }} placeholder='Enter Your age' required />
+                <div className='up1'>
+                    <label className='nm'>age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                    <input className='ip' onChange={(e) => { setage(e.target.value) }} placeholder='Enter Your age' required />
                 </div>
-                <div className='up'>
-                    <label className='name'>password: </label>
-                    <input className='input' onChange={(e) => { setpassword(e.target.value) }} placeholder='Enter Your password' required />
+                <div className='up1'>
+                    <label className='nm'>password: </label>
+                    <input className='ip' onChange={(e) => { setpassword(e.target.value) }} placeholder='Enter Your password' required />
                 </div>
                 <div>
-                    <button className="btn" onClick={onSignUpClick} type='submit'>Signup</button>
+                    <button className="btn1" onClick={onSignUpClick} type='submit'>Signup</button>
 
                 </div>
             </div>

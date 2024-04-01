@@ -1,84 +1,90 @@
-.body {
+.innertext {
     background: #6a11cb;
     background-size: cover;
-    height: 100vh;
-    padding: 2rem 22rem 0.5rem 32rem;
-    /* padding: (top,right, bottom, left); */
-}
-
-.main {
-    display: flex;
-    background: black;
+    height: 70vh;
     width: 70vh;
-    height: 90vh;
+    margin-top: 1rem;
+    margin-left: 20rem;
+    display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
     border-radius: 10px;
     white-space: 1rem;
+    /* padding: (top,right, bottom, left); */
+
 }
 
-.title {
-    color: white;
+.outter {
+    background: black;
+    width: 206vh;
+    height: 100vh;
+    padding: 10rem 25rem 5rem 20rem;
+}
+
+.t1 {
+    color: black;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
     margin-top: 5rem;
 }
 
-.line1 {
-    color: whitesmoke;
+.l1 {
+    color: black;
     font-size: 1.2rem;
     font-weight: 500;
     padding: 5px;
     text-align: center;
 }
 
-.up {
+.up1 {
     align-items: center;
     display: flex;
     margin-left: 3rem;
-    padding: 10px;
+    padding: 15px;
 }
 
-.name {
-    color: white;
+.nm {
+    color: black;
     font-size: 1rem;
     font-weight: 500;
 }
 
-.input {
-    padding: 5px;
+.ip {
+    padding: 7px;
     border: 1px solid black;
     margin-left: 1rem;
 }
 
-.line2 {
-    color: whitesmoke;
+/* .line2 {
+    color: black;
     font-size: 1rem;
     font-weight: 500;
     padding: 20px;
     text-align: center;
-}
+} */
 
-.btn {
+.btn1 {
     font-size: 1.5rem;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     width: 15rem;
-    margin-left: 4rem;
+    margin: 1rem 1rem 1rem 3rem;
     display: flex;
     flex-direction: column;
     background-color: black;
-    color: white;
+    color: black;
+    background-color: wheat;
     align-items: center;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
-btn:hover {
+btn1:hover {
     opacity: 1;
 }
 
+/* 
 .icons {
     font-size: 1.6rem;
     display: flex;
@@ -94,4 +100,4 @@ btn:hover {
     font-weight: 500;
     text-align: center;
     padding: 20px;
-}
+} */

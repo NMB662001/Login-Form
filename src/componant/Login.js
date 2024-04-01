@@ -28,8 +28,8 @@ const Login = () => {
         }
     }
     return (
-        <div className='body'>
-            <div className='main'>
+        <div className='body1'>
+            <div className='main1'>
                 <form >
                     <h2 className='title'>LOGIN </h2>
                     <p className='line1'>Please Enter Your Login And Password !</p>

@@ -1,12 +1,12 @@
-.body {
+.body1 {
     background: #6a11cb;
     background-size: cover;
     height: 100vh;
-    padding: 2rem 22rem 0.5rem 32rem;
+    padding: 2rem 22rem 0.5rem 40rem;
     /* padding: (top,right, bottom, left); */
 }
 
-.main {
+.main1 {
     display: flex;
     background: black;
     width: 70vh;
