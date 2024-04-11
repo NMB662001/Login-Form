@@ -1,10 +1,10 @@
 .innertext {
     background: #6a11cb;
     background-size: cover;
-    height: 70vh;
+    height: 83vh;
     width: 70vh;
     margin-top: 1rem;
-    margin-left: 20rem;
+    margin-left: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,9 +17,9 @@
 
 .outter {
     background: black;
-    width: 206vh;
-    height: 100vh;
-    padding: 10rem 25rem 5rem 20rem;
+    width: 108vh;
+    height: 85vh;
+    padding: 2rem 25rem 5rem 30rem;
 }
 
 .t1 {

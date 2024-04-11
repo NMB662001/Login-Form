@@ -36,7 +36,7 @@ const Users = () => {
             console.error(err);
             alert("An error occurred while deleting user.");
         }
-    };
+    }
     return (
         <div className="back">
             <h1 className="line"> All Users Data</h1>

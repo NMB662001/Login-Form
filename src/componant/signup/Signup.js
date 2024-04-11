@@ -33,7 +33,7 @@ const Signup = () => {
         <div className='outter'>
             <div className='innertext'>
 
-                <h2 className='title'>SIGN UP </h2>
+                <h2 className='t1'>SIGN UP </h2>
                 <p className='l1'>Please Enter Your Login And Password !</p>
 
                 <div className='up1'>
